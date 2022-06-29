@@ -10,18 +10,18 @@ body {
   background-image: url(images/header-shapes\ mobile.png);
   background-repeat: no-repeat;
   background-position: 10% 50px;
-
   background-position-y: 100px;
 }
+
 li {
   list-style: none;
 }
+
 section {
   display: flex;
   flex-direction: column;
   position: relative;
   top: 75px;
-  flex-direction: column;
   padding-left: 24px;
   padding-right: 24px;
 }
@@ -30,12 +30,9 @@ section {
   text-decoration: none;
   width: 76px;
   height: 20px;
-
-  font-family: "Poppins";
-  font-style: normal;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 18px;
-
   text-align: center;
   color: #6070ff;
   margin-left: 10px;
@@ -53,8 +50,7 @@ section {
 
 .welcome-message {
   color: #172b4d;
-  font-family: "Poppins";
-  font-style: normal;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -62,17 +58,16 @@ section {
 }
 
 .about-me {
-  font-family: "Poppins";
-  font-style: normal;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
   margin-top: 20px;
 }
+
 .connect {
-  font-family: "Poppins";
-  font-style: normal;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -80,10 +75,12 @@ section {
   text-decoration: none;
   margin-top: 10px;
 }
+
 .social-media-icons {
   display: flex;
   margin-top: 10px;
 }
+
 .icons {
   margin-right: 20px;
   margin-top: 10px;
