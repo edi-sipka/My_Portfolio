@@ -92,3 +92,107 @@ section {
   margin-right: 20px;
   margin-top: 10px;
 }
+
+.portfolio {
+  background-color: #e5e5e5;
+  /*display: grid;
+  grid-template-columns: 1fr; */
+}
+
+.portfolio section {
+  margin-bottom: 70px;
+  border-radius: 20px;
+  border: 0.2rem solid #e5e5e5;
+  background-color: #fff;
+  margin-left: -10px;
+}
+
+.portfolio-image {
+  margin-top: 16px;
+  width: 295px;
+  height: 220px;
+  margin-left: -5px;
+}
+
+.project-name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.project-info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: -30px;
+  margin-left: -15px;
+}
+
+.project-client {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+}
+.programming-language {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+.year {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+.project-details {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.languages {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+  margin-left: -30px;
+}
+.dev-tool {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070ff;
+  background: #ebebff;
+  border-radius: 10px;
+  border: 8px solid #ebebff;
+  margin-left: -10px;
+}
+.see-projects {
+  width: 120px;
+  height: 50px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  color: #396df2;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #396df2;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
