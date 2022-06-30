@@ -23,6 +23,7 @@ section {
   top: 75px;
   padding-left: 24px;
   padding-right: 24px;
+  margin-bottom: 20px;
 }
 
 .header-section {
@@ -70,8 +71,15 @@ section {
   color: #344563;
   margin-top: 0;
   margin-right: 30px;
+  background-image: url("Images/Base_about.png");
 }
-
+.about-me-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
 .connect {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -95,23 +103,24 @@ section {
 
 .portfolio {
   background-color: #e5e5e5;
-  /*display: grid;
-  grid-template-columns: 1fr; */
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
-.portfolio section {
+.portfolio-border {
   margin-bottom: 70px;
   border-radius: 20px;
   border: 0.2rem solid #e5e5e5;
   background-color: #fff;
   margin-left: -10px;
+  margin-top: 40px;
 }
 
 .portfolio-image {
   margin-top: 16px;
   width: 295px;
   height: 220px;
-  margin-left: -5px;
+  margin-left: 15px;
 }
 
 .project-name {
@@ -121,6 +130,7 @@ section {
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
+  margin-left: 15px;
 }
 
 .project-info {
@@ -128,7 +138,7 @@ section {
   justify-content: space-evenly;
   align-items: center;
   margin-top: -30px;
-  margin-left: -15px;
+  margin-left: -5px;
 }
 
 .project-client {
@@ -162,13 +172,15 @@ section {
   font-size: 15px;
   line-height: 24px;
   color: #344563;
+  margin-left: 20px;
+  margin-right: 5px;
 }
 
 .languages {
   display: flex;
   justify-content: flex-start;
   gap: 15px;
-  margin-left: -30px;
+  margin-left: -15px;
 }
 .dev-tool {
   font-family: "Poppins";
@@ -182,7 +194,7 @@ section {
   border: 8px solid #ebebff;
   margin-left: -10px;
 }
-.see-projects {
+.btn {
   width: 120px;
   height: 50px;
   font-family: "Poppins";
@@ -195,4 +207,79 @@ section {
   border: 1px solid #396df2;
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-left: 15px;
+}
+.about-me {
+  background-image: url("Images/Base_about.png");
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  margin-top: 20px;
+}
+
+.about-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.btn--resume {
+  width: 160px;
+  height: 50px;
+  margin-left: -10px;
+}
+.tools {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.caption {
+  margin-left: -40px;
+  /* Body / 1 - Bolder */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.left-sidebar {
+  margin-top: 5px;
+}
+
+.elements {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin-left: -40px;
+  margin-top: 10px;
+  height: 60px;
+}
+.elements-text {
+  margin-top: 22px;
+  margin-left: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+}
+.elements-image {
+  margin-top: 5px;
+}
+.separator {
+  margin-left: -45px;
 }
