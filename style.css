@@ -23,6 +23,7 @@ section {
   top: 75px;
   padding-left: 24px;
   padding-right: 24px;
+  margin-bottom: 20px;
 }
 
 .header-section {
@@ -68,8 +69,20 @@ section {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  margin-top: 0;
   margin-right: 30px;
+  background-image: url("Images/Base_about.png");
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  margin-top: 20px;
+}
+
+.about-me-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
 }
 
 .connect {
@@ -77,7 +90,7 @@ section {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7fbcff;
+  color: #7f8cff;
   text-decoration: none;
   margin-top: 10px;
 }
@@ -91,4 +104,217 @@ section {
 .icons {
   margin-right: 20px;
   margin-top: 10px;
+}
+
+.portfolio {
+  background-color: #e5e5e5;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.portfolio-border {
+  margin-bottom: 70px;
+  border-radius: 20px;
+  border: 0.2rem solid #e5e5e5;
+  background-color: #fff;
+  margin-left: -10px;
+  margin-top: 40px;
+}
+
+.portfolio-image {
+  margin-top: 16px;
+  width: 295px;
+  height: 220px;
+  margin-left: 15px;
+}
+
+.project-name {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin-left: 15px;
+}
+
+.project-info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: -30px;
+  margin-left: -5px;
+}
+
+.project-client {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+}
+
+.programming-language {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.year {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.project-details {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+.languages {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+  margin-left: -15px;
+}
+
+.dev-tool {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070ff;
+  background: #ebebff;
+  border-radius: 10px;
+  border: 8px solid #ebebff;
+  margin-left: -10px;
+}
+
+.btn {
+  width: 120px;
+  height: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  color: #396df2;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #396df2;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+  color: #fff;
+}
+
+.btn:active {
+  background: #2230d2;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.btn:visited {
+  color: #5e6c84;
+}
+
+.about-text {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.btn--resume {
+  width: 160px;
+  height: 50px;
+  margin-left: -10px;
+}
+
+.tools {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tabs-bottom-line {
+  box-shadow: 0 1px #dfe1e6;
+}
+
+.caption {
+  margin-left: -40px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+}
+
+.left-sidebar {
+  margin-top: 5px;
+}
+
+.elements {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin-left: -40px;
+  margin-top: 10px;
+  height: 60px;
+}
+
+.elements-text {
+  margin-top: 22px;
+  margin-left: 20px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+}
+
+.elements-image {
+  margin-top: 5px;
+}
+
+.new-break {
+  margin-top: -10px;
+  margin-left: -40px;
+}
+
+hr {
+  margin-top: -10px;
+  margin-left: -50px;
+  width: 320px;
+  box-shadow: #dfe1e6;
 }
