@@ -318,3 +318,43 @@ hr {
   width: 320px;
   box-shadow: #dfe1e6;
 }
+
+.contact-form {
+  background-image: url("/Images/Contact-me.png");
+  margin-top: 80px;
+}
+
+.contact-me {
+  margin-top: 40px;
+  background-image: url("/Images/contact-form-mobile.png");
+  background-repeat: no-repeat;
+  background-position-y: -10px;
+  background-position-x: 100px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact {
+  margin-right: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 90px;
+  margin-right: 10px;
+}
+
+.contact-paragraph {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+  text-align: center;
+  line-height: 28px;
+  margin-top: -10px;
+}
