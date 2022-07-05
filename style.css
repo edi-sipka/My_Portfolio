@@ -358,3 +358,54 @@ hr {
   line-height: 28px;
   margin-top: -10px;
 }
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#contact-name {
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+  outline: none;
+}
+#email {
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+  outline: none;
+}
+#message {
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 15px;
+  margin-bottom: 15px;
+  min-height: 170px;
+  min-width: 327px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+  outline: none;
+}

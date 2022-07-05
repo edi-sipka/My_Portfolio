@@ -270,38 +270,35 @@
           with it
         </p>
       </nav>
-      <form class="contact-box" action="">
-        <fieldset class="contact-info">
-          <div class="contact-section">
-            <input
-              type="text"
-              name="full-name"
-              placeholder="Yeremias"
-              id="contact-name"
-              required
-            />
-          </div>
+      <form
+        class="contact-box"
+        action="https://formspree.io/f/mqknveyk"
+        method="POST"
+      >
+        <input
+          type="text"
+          name="full-name"
+          placeholder="Your Name"
+          id="contact-name"
+          maxlength="30"
+          required
+        />
 
-          <div class="contact-section">
-            <input
-              type="email"
-              placeholder="natajayanj14@gmail.com"
-              name="email"
-              id="email"
-              required
-            />
-          </div>
+        <input
+          type="email"
+          placeholder="Your Email"
+          name="email"
+          id="email"
+          required
+        />
 
-          <div class="contact-section">
-            <textarea
-              id="message"
-              name="Message"
-              maxlength="500"
-              placeholder="Write your message here"
-              required
-            ></textarea>
-          </div>
-        </fieldset>
+        <textarea
+          id="message"
+          name="Message"
+          maxlength="500"
+          placeholder="Write your message here"
+          required
+        ></textarea>
       </form>
     </section>
   </body>
