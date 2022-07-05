@@ -331,18 +331,17 @@ hr {
   background-repeat: no-repeat;
   background-position-y: -10px;
   background-position-x: 100px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .contact {
-  margin-right: 40px;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
   margin-top: 90px;
   margin-right: 10px;
@@ -356,18 +355,19 @@ hr {
   line-height: 28px;
   color: #ebebff;
   text-align: center;
-  line-height: 28px;
   margin-top: -10px;
 }
+
 .contact-box {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 #contact-name {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  background: #ffffff;
+  background: #fff;
   padding: 15px;
   margin-bottom: 15px;
   width: 100%;
@@ -379,10 +379,11 @@ hr {
   color: #172b4d;
   outline: none;
 }
+
 #email {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  background: #ffffff;
+  background: #fff;
   padding: 15px;
   margin-bottom: 15px;
   width: 100%;
@@ -394,10 +395,11 @@ hr {
   color: #172b4d;
   outline: none;
 }
+
 #message {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  background: #ffffff;
+  background: #fff;
   padding: 15px;
   margin-bottom: 15px;
   min-height: 170px;
@@ -411,6 +413,9 @@ hr {
   outline: none;
 }
 
-.btn-width{
-  width: 200px;
+.btn-width {
+  width: 140px;
+  float: left;
+  margin-top: 1px;
+  margin-right: 220px;
 }
