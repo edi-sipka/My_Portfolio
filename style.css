@@ -321,6 +321,7 @@ hr {
 
 .contact-form {
   background-image: url("/Images/Contact-me.png");
+  background-repeat: no-repeat;
   margin-top: 80px;
 }
 
@@ -408,4 +409,8 @@ hr {
   line-height: 24px;
   color: #b3bac5;
   outline: none;
+}
+
+.btn-width{
+  width: 200px;
 }
