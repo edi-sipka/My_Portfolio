@@ -25,6 +25,12 @@ section {
   padding-right: 24px;
   margin-bottom: 20px;
 }
+hr {
+  margin-top: -10px;
+  margin-left: -50px;
+  width: 320px;
+  box-shadow: #dfe1e6;
+}
 
 .header-section {
   display: flex;
@@ -41,6 +47,7 @@ section {
   text-align: center;
   color: #6070ff;
   margin-left: 20px;
+  margin-top: 10px;
 }
 
 .mobile-menu {
@@ -50,8 +57,8 @@ section {
   bottom: 50%;
   display: flex;
   justify-content: flex-end;
-  margin-top: 0;
-  margin-right: 60px;
+  margin-top: 5px;
+  margin-right: 10px;
 }
 
 .welcome-message {
@@ -70,7 +77,6 @@ section {
   line-height: 24px;
   color: #344563;
   margin-right: 30px;
-  background-image: url("Images/Base_about.png");
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
@@ -312,13 +318,6 @@ section {
   margin-left: -40px;
 }
 
-hr {
-  margin-top: -10px;
-  margin-left: -50px;
-  width: 320px;
-  box-shadow: #dfe1e6;
-}
-
 .contact-form {
   background-image: url("/Images/Contact-me.png");
   background-repeat: no-repeat;
@@ -370,7 +369,7 @@ hr {
   background: #fff;
   padding: 15px;
   margin-bottom: 15px;
-  width: 100%;
+  width: 90%;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -386,7 +385,7 @@ hr {
   background: #fff;
   padding: 15px;
   margin-bottom: 15px;
-  width: 100%;
+  width: 90%;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -403,7 +402,7 @@ hr {
   padding: 15px;
   margin-bottom: 15px;
   min-height: 170px;
-  min-width: 327px;
+  width: 90%;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -417,5 +416,5 @@ hr {
   width: 140px;
   float: left;
   margin-top: 1px;
-  margin-right: 220px;
+  margin-right: 200px;
 }
