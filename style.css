@@ -17,7 +17,7 @@ li {
 
 section {
   position: relative;
-  top: 75px;
+  top: 48px;
   padding-left: 24px;
   padding-right: 24px;
   font-family: "Poppins", sans-serif;
@@ -83,7 +83,7 @@ header {
   align-items: center;
   text-align: center;
   color: #344563;
-  gap: 30px;
+  gap: 40px;
   text-decoration: none;
 }
 
@@ -105,15 +105,6 @@ header {
   font-size: 40px;
   line-height: 52px;
   margin-top: 70px;
-}
-
-.about-me {
-  min-width: 375px;
-  padding-top: 50px;
-  margin-top: 40px;
-  background-color: #fff;
-  background-image: none;
-  border-radius: 0% 10% 0% 0%;
 }
 
 .about-me-text {
@@ -455,19 +446,46 @@ header {
 }
 
 @media (min-width: 748px) {
+  section {
+    background-position: 20px 0px;
+  }
+
   .header-section {
     width: 100%;
   }
   .main-part {
-    width: 100%;
+    min-width: 375px;
+    padding-top: 160px;
+    padding-bottom: 260px;
   }
   .my-logo {
-    margin-left: 60px;
+    margin-left: 80px;
   }
   .navigation-links {
     display: inline;
+    margin-right: 40px;
   }
   .navigation-right {
     display: none;
+  }
+  .welcome-message {
+    margin-left: 160px;
+  }
+  .about-me {
+    margin-left: 160px;
+    padding-right: 70px;
+    font-size: 16px;
+    width: 920px;
+    height: 98px;
+    margin-top: -20px;
+  }
+  .connect {
+    margin-left: 160px;
+    margin-top: -10px;
+    display: block;
+  }
+  .social-media-icons {
+    margin-left: 120px;
+    margin-top: 10px;
   }
 }
