@@ -1,15 +1,11 @@
 body {
-  background-color: #fff;
+  background-color: #e5e5e5;
   width: 375px;
   top: 0;
   font-family: "Poppins", sans-serif;
   border: 0;
   margin: 0;
   padding: 0;
-  background-image: url("Images/header-shapes-mobile.png");
-  background-repeat: no-repeat;
-  background-position-x: -0;
-  background-position-y: 100px;
 }
 
 li {
@@ -17,13 +13,17 @@ li {
 }
 
 section {
-  display: flex;
-  flex-direction: column;
   position: relative;
   top: 75px;
   padding-left: 24px;
   padding-right: 24px;
-  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  background-image: url("images/header-shapes-mobile.png");
+  background-repeat: no-repeat;
+  background-position: 100px right;
+  background-size: auto 600px;
+  border-radius: 0% 0% 0% 10%;
+  padding-bottom: 50px;
 }
 hr {
   margin-top: -10px;
@@ -31,23 +31,32 @@ hr {
   width: 320px;
   box-shadow: #dfe1e6;
 }
-
+header {
+  background-color: #fff;
+  position: fixed;
+  z-index: 99999;
+}
+.main-part {
+  background-color: #fff;
+  width: 375px;
+  padding-top: 80px;
+}
 .header-section {
   display: flex;
   justify-content: space-between;
+  width: 384px;
+  padding: 14px 20px;
+  align-items: center;
+  height: 46px;
 }
 
 .header-logo {
   text-decoration: none;
-  width: 76px;
-  height: 20px;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 12px;
   text-align: center;
   color: #6070ff;
-  margin-left: 20px;
-  margin-top: 10px;
 }
 
 .mobile-menu {
@@ -71,24 +80,20 @@ hr {
 }
 
 .about-me {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #344563;
-  margin-right: 30px;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  margin-top: 20px;
+  width: 375px;
+  padding-top: 50px;
+  margin-top: 40px;
+  background-color: #fff;
+  background-image: none;
+  border-radius: 0% 10% 0% 0%;
 }
-
 .about-me-text {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  margin-top: 50px;
 }
 
 .connect {
@@ -98,7 +103,7 @@ hr {
   line-height: 24px;
   color: #7f8cff;
   text-decoration: none;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 .social-media-icons {
@@ -116,13 +121,15 @@ hr {
   background-color: #e5e5e5;
   display: grid;
   grid-template-columns: 1fr;
+  padding: 10px;
+  background-image: none;
 }
 
 .portfolio-border {
   margin-bottom: 70px;
   border-radius: 20px;
   border: 0.2rem solid #e5e5e5;
-  background-color: #fff;
+  background-color: #ffffff;
   margin-left: -10px;
   margin-top: 40px;
 }
@@ -319,17 +326,17 @@ hr {
 }
 
 .contact-form {
-  background-image: url("/Images/Contact-me.png");
-  background-repeat: no-repeat;
-  margin-top: 80px;
+  margin-top: 0px;
+  width: 375px;
+  width: 375px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 80px 0 0 0;
+  height: 760px;
+  background-color: #6070ff;
 }
 
 .contact-me {
-  margin-top: 40px;
-  background-image: url("/Images/contact-form-mobile.png");
-  background-repeat: no-repeat;
-  background-position-y: -10px;
-  background-position-x: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -342,7 +349,7 @@ hr {
   line-height: 52px;
   color: #fff;
   text-align: center;
-  margin-top: 90px;
+  margin-top: 80px;
   margin-right: 10px;
 }
 
