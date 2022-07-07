@@ -28,6 +28,7 @@ section {
   border-radius: 0% 0% 0% 10%;
   padding-bottom: 50px;
 }
+
 a {
   text-decoration: none;
   color: #344563;
@@ -69,6 +70,7 @@ header {
   text-align: center;
   color: #6070ff;
 }
+
 .navigation-links {
   display: none;
 }
@@ -106,13 +108,14 @@ header {
   line-height: 52px;
   margin-top: 70px;
 }
-.about-me{
+
+.about-me {
   background-color: #fff;
   background-image: none;
   border-radius: 0% 10% 0% 0%;
-  padding-top:60px;
- 
+  padding-top: 60px;
 }
+
 .about-me-text {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -179,10 +182,10 @@ header {
 
 .project-info {
   display: flex;
-    align-items: center;
+  align-items: center;
   margin-top: -30px;
   margin-left: 20px;
-  gap:10px;
+  gap: 10px;
 }
 
 .project-client {
@@ -359,7 +362,6 @@ header {
   border-radius: 80px 0 0 0;
   height: 760px;
   background-color: #6070ff;
- 
 }
 
 .contact-me {
@@ -454,119 +456,144 @@ header {
 
 @media (min-width: 748px) {
   section {
-    background-position: 20px 0px;
+    background-position: 20px 0;
   }
 
   .header-section {
     width: 100%;
   }
+
   .main-part {
     min-width: 1100px;
     padding-top: 160px;
     padding-bottom: 260px;
   }
+
   .my-logo {
     margin-left: 80px;
   }
+
   .navigation-links {
     display: inline;
     margin-right: 40px;
   }
+
   .navigation-right {
     display: none;
   }
+
   .welcome-message {
     margin-left: 160px;
   }
+
   .about-me-main {
-  
     font-size: 16px;
     margin-top: -20px;
     background-image: none;
     margin-left: 160px;
     max-width: 800px;
-    
   }
-  .about-me{
-    display:grid;
-    grid-template-columns: repeat(2, 1fr) ;
-    gap:40px;
+
+  .about-me {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
   }
-  .about-text{
+
+  .about-text {
     margin-left: 100px;
   }
-  .about-me-text{
+
+  .about-me-text {
     margin-left: 100px;
-    margin-top:-10px;
+    margin-top: -10px;
   }
+
   .connect {
     margin-left: 160px;
     display: block;
   }
-  .connect-bottom{
+
+  .connect-bottom {
     margin-left: 100px;
     display: block;
   }
+
   .social-media-icons {
     margin-left: 120px;
     margin-top: 10px;
   }
-  .social-media-button{
+
+  .social-media-button {
     margin-left: 60px;
   }
+
   .portfolio {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+
   .portfolio-border {
     width: 80%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-  
-}
-.portfolio-image {
-  margin-top: 16px;
-  width: 90%;
-  height: 90%;
-  margin-left: 15px;
-}
-.project-section-reverse{
-order: -1;
-}
-.btn--resume{
-  margin-left: 90px;
-}
-.elements{
-  display:flex;
-  flex-direction: column;
-  width: 122px;
-height: 120px;
-}
-.side-language{
-  display:flex;
-  justify-content: flex-start;
-  gap:60px;
-}
-.contact-form{
-  background-image: url("/Images/contact-form-background-shapes.png");
-}
-.contact-paragraph{
-  max-width: 800px;
-}
-#contact-name{
-  width: 60%;
-}
-#email{
-  width: 60%;
-}
-#message{
-  width: 60%;
-}
-.btn-width{
-  margin-right: 0px;
-}
-.contact{
-  margin-right: 0px;
+  }
+
+  .portfolio-image {
+    margin-top: 16px;
+    width: 90%;
+    height: 90%;
+    margin-left: 15px;
+  }
+
+  .project-section-reverse {
+    order: -1;
+  }
+
+  .btn--resume {
+    margin-left: 90px;
+  }
+
+  .elements {
+    display: flex;
+    flex-direction: column;
+    width: 122px;
+    height: 120px;
+  }
+
+  .side-language {
+    display: flex;
+    justify-content: flex-start;
+    gap: 60px;
+  }
+
+  .contact-form {
+    background-image: url("/Images/contact-form-background-shapes.png");
+  }
+
+  .contact-paragraph {
+    max-width: 800px;
+  }
+
+  #contact-name {
+    width: 60%;
+  }
+
+  #email {
+    width: 60%;
+  }
+
+  #message {
+    width: 60%;
+  }
+
+  .btn-width {
+    margin-right: 0;
+  }
+
+  .contact {
+    margin-right: 0;
+  }
 }
