@@ -359,6 +359,7 @@ header {
   border-radius: 80px 0 0 0;
   height: 760px;
   background-color: #6070ff;
+ 
 }
 
 .contact-me {
@@ -547,4 +548,25 @@ height: 120px;
   display:flex;
   justify-content: flex-start;
   gap:60px;
+}
+.contact-form{
+  background-image: url("/Images/contact-form-background-shapes.png");
+}
+.contact-paragraph{
+  max-width: 800px;
+}
+#contact-name{
+  width: 60%;
+}
+#email{
+  width: 60%;
+}
+#message{
+  width: 60%;
+}
+.btn-width{
+  margin-right: 0px;
+}
+.contact{
+  margin-right: 0px;
 }
