@@ -42,11 +42,11 @@
         I'm Edi <br />
         Glad to see you!
       </h1>
-      <p class="about-me">
+      <p class="about-me-main">
         I’m a software developer! I can help you build a product , features or
         website. Look through some of my work and projects! If you like what you
-        see and have a project you need to be coded, don’t hestiate to contact
-        me.
+        see and have a project you need to be coded, <br />
+        don’t hestiate to contact me.
       </p>
       <a href="#" class="connect">LET'S CONNECT</a>
       <ul class="social-media-icons">
@@ -87,14 +87,16 @@
           alt="portfolio project"
           src="Images/Snapshoot_Portfolio1.png"
         />
-        <h2 class="project-name">Tonic</h2>
-        <nav class="project-info">
-          <h4 class="project-client">CANOPY</h4>
-          <img src="Images/Counter.png" class="counter" alt="counter" />
-          <span class="programming-language">Back End Dev</span>
-          <img src="Images/Counter.png" class="counter" alt="counter" />
-          <span class="year">2015</span>
-        </nav>
+        <div class="project-section">
+          <h2 class="project-name">Tonic</h2>
+          <nav class="project-info">
+            <h4 class="project-client">CANOPY</h4>
+            <img src="Images/Counter.png" class="counter" alt="counter" />
+            <span class="programming-language">Back End Dev</span>
+            <img src="Images/Counter.png" class="counter" alt="counter" />
+            <span class="year">2015</span>
+          </nav>
+        
         <p class="project-details">
           A daily selection of privately personalized reads; no accounts or
           sign-ups required.
@@ -106,12 +108,14 @@
         </ul>
         <button class="btn">See Project</button>
       </nav>
+    </div>
       <nav class="portfolio-border">
         <img
           class="portfolio-image"
           alt="portfolio project"
           src="Images/Snapshoot_Portfolio2.png"
         />
+        <div class="project-section project-section-reverse"> 
         <h2 class="project-name">Multi-Post Stories</h2>
         <nav class="project-info">
           <h4 class="project-client">CANOPY</h4>
@@ -131,12 +135,15 @@
         </ul>
         <button class="btn">See Project</button>
       </nav>
+    </div>
+
       <nav class="portfolio-border">
         <img
           class="portfolio-image"
           alt="portfolio project"
           src="Images/Snapshoot_Portfolio3.png"
         />
+        <div class="project-section">
         <h2 class="project-name">Tonic</h2>
         <nav class="project-info">
           <h4 class="project-client">CANOPY</h4>
@@ -156,12 +163,14 @@
         </ul>
         <button class="btn">See Project</button>
       </nav>
+    </div>
       <nav class="portfolio-border">
         <img
           class="portfolio-image"
           alt="portfolio project"
           src="Images/Snapshoot_Portfolio4.png"
         />
+        <div class="project-section project-section-reverse"> 
         <h2 class="project-name">Multi-Post Stories</h2>
         <nav class="project-info">
           <h4 class="project-client">CANOPY</h4>
@@ -181,10 +190,12 @@
         </ul>
         <button class="btn">See Project</button>
       </nav>
+    </div>
     </section>
 
     <!---About Me Section -->
     <section class="about-me">
+      <div class="about-section">
       <h2 class="about-text">
         About <br />
         Myself
@@ -195,8 +206,8 @@
         like what you see and have a project you need to be coded, don’t
         hestiate to contact me.
       </p>
-      <a href="#" class="connect">LET'S CONNECT</a>
-      <ul class="social-media-icons">
+      <a href="#" class="connect connect-bottom">LET'S CONNECT</a>
+      <ul class="social-media-icons social-media-button">
         <li>
           <a href="#" class="icons">
             <img src="Images/twitter.svg" alt="Twitter logo" />
@@ -209,7 +220,7 @@
         </li>
         <li>
           <a href="#" class="icons">
-            <img src="Images/microsoft.svg" alt="Microsoft logo" />
+            <img src="Images/microsoft.svg" alt="Medium logo" />
           </a>
         </li>
         <li>
@@ -224,11 +235,17 @@
         </li>
       </ul>
       <button class="btn btn--resume">Get my Resume</button>
+    </div>
+
+    <div class="skills-section">
       <ul class="tools">
         <li class="tabs">
+          
           <h4 class="caption">Languages</h4>
           <img class="left-sidebar" alt="open-tab" src="Images/Open_tab.png" />
         </li>
+        </ul>
+       <ul class="side-language">
         <li class="elements">
           <img
             class="elements-image"
@@ -253,7 +270,9 @@
           />
           <span class="elements-text">CSS</span>
         </li>
+      
       </ul>
+   
 
       <ul class="tools tabs-bottom-line">
         <li class="tabs">
@@ -274,6 +293,7 @@
           <img class="left-sidebar" alt="open-tab" src="Images/Disabled.png" />
         </li>
       </ul>
+
     </section>
     <!---Contact Form Section -->
     <section class="contact-form">
