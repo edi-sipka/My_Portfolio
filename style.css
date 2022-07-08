@@ -89,6 +89,10 @@ header {
   text-decoration: none;
 }
 
+.hover-menu:hover {
+  color: #2230d2;
+}
+
 .mobile-menu {
   left: 16.67%;
   right: 16.67%;
@@ -168,6 +172,11 @@ header {
   width: 295px;
   height: 220px;
   margin-left: 15px;
+}
+
+.portfolio-image:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in;
 }
 
 .project-name {
@@ -267,6 +276,8 @@ header {
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 8px;
   color: #fff;
+  transform: translate(5px, 0);
+  transition: 0.5s all;
 }
 
 .btn:active {
@@ -454,6 +465,10 @@ header {
   margin-right: 200px;
 }
 
+.rotate-icons:hover {
+  transform: rotate(100deg);
+}
+
 @media (min-width: 748px) {
   section {
     background-position: 20px 0;
@@ -471,6 +486,11 @@ header {
 
   .my-logo {
     margin-left: 80px;
+  }
+
+  .my-logo:hover {
+    transform: rotate(10deg);
+    transition: 0.5s all;
   }
 
   .navigation-links {
@@ -567,6 +587,11 @@ header {
     display: flex;
     justify-content: flex-start;
     gap: 60px;
+  }
+
+  .elements:hover {
+    transform: translateY(-1.2rem);
+    transition: all 0.4s;
   }
 
   .contact-form {
