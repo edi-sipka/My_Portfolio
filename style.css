@@ -174,7 +174,7 @@ header {
   margin-left: 15px;
 }
 
-.portfolio-image:hover{
+.portfolio-image:hover {
   transform: scale(1.1);
   transition: all 0.5s ease-in;
 }
@@ -276,7 +276,7 @@ header {
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 8px;
   color: #fff;
-  transform: translate(5px,0px );
+  transform: translate(5px,0);
   transition: 0.5s all;
 }
 
@@ -465,9 +465,8 @@ header {
   margin-right: 200px;
 }
 
-.rotate-icons:hover{
+.rotate-icons:hover {
   transform: rotate(100deg);
- 
 }
 
 @media (min-width: 748px) {
@@ -488,11 +487,11 @@ header {
   .my-logo {
     margin-left: 80px;
   }
-  .my-logo:hover{
+
+  .my-logo:hover {
     transform: rotate(10deg);
     transition: 0.5s all;
   }
-
 
 .navigation-links {
   display: inline;
@@ -589,6 +588,7 @@ header {
   justify-content: flex-start;
   gap: 60px;
 }
+
 .elements:hover {
   transform: translateY(-1.2rem);
   transition: all 0.4s;
