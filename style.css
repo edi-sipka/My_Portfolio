@@ -89,6 +89,10 @@ header {
   text-decoration: none;
 }
 
+.hover-menu:hover {
+  color: #2230d2;
+}
+
 .mobile-menu {
   left: 16.67%;
   right: 16.67%;
@@ -472,128 +476,133 @@ header {
   .my-logo {
     margin-left: 80px;
   }
+  
 
-  .navigation-links {
-    display: inline;
-    margin-right: 40px;
-  }
 
-  .navigation-right {
-    display: none;
-  }
+.navigation-links {
+  display: inline;
+  margin-right: 40px;
+}
 
-  .welcome-message {
-    margin-left: 160px;
-  }
+.navigation-right {
+  display: none;
+}
 
-  .about-me-main {
-    font-size: 20px;
-    margin-top: -20px;
-    background-image: none;
-    margin-left: 160px;
-    max-width: 800px;
-  }
+.welcome-message {
+  margin-left: 160px;
+}
 
-  .about-me {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
-  }
+.about-me-main {
+  font-size: 20px;
+  margin-top: -20px;
+  background-image: none;
+  margin-left: 160px;
+  max-width: 800px;
+}
 
-  .about-text {
-    margin-left: 100px;
-  }
+.about-me {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
 
-  .about-me-text {
-    margin-left: 100px;
-    margin-top: -10px;
-  }
+.about-text {
+  margin-left: 100px;
+}
 
-  .connect {
-    margin-left: 160px;
-    display: block;
-  }
+.about-me-text {
+  margin-left: 100px;
+  margin-top: -10px;
+}
 
-  .connect-bottom {
-    margin-left: 100px;
-    display: block;
-  }
+.connect {
+  margin-left: 160px;
+  display: block;
+}
 
-  .social-media-icons {
-    margin-left: 120px;
-    margin-top: 10px;
-  }
+.connect-bottom {
+  margin-left: 100px;
+  display: block;
+}
 
-  .social-media-button {
-    margin-left: 60px;
-  }
+.social-media-icons {
+  margin-left: 120px;
+  margin-top: 10px;
+}
 
-  .portfolio {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+.social-media-button {
+  margin-left: 60px;
+}
 
-  .portfolio-border {
-    width: 80%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  .portfolio-image {
-    margin-top: 16px;
-    width: 90%;
-    height: 90%;
-    margin-left: 15px;
-  }
+.portfolio-border {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
 
-  .project-section-reverse {
-    order: -1;
-  }
+.portfolio-image {
+  margin-top: 16px;
+  width: 90%;
+  height: 90%;
+  margin-left: 15px;
+}
 
-  .btn--resume {
-    margin-left: 90px;
-  }
+.project-section-reverse {
+  order: -1;
+}
 
-  .elements {
-    display: flex;
-    flex-direction: column;
-    width: 122px;
-    height: 120px;
-  }
+.btn--resume {
+  margin-left: 90px;
+}
 
-  .side-language {
-    display: flex;
-    justify-content: flex-start;
-    gap: 60px;
-  }
+.elements {
+  display: flex;
+  flex-direction: column;
+  width: 122px;
+  height: 120px;
+}
 
-  .contact-form {
-    background-image: url("./Images/contact-form-background-shapes.png");
-  }
+.side-language {
+  display: flex;
+  justify-content: flex-start;
+  gap: 60px;
+}
+.elements:hover {
+  transform: translateY(-1.2rem);
+  transition: all 0.4s;
+}
 
-  .contact-paragraph {
-    max-width: 800px;
-  }
+.contact-form {
+  background-image: url("./Images/contact-form-background-shapes.png");
+}
 
-  #contact-name {
-    width: 60%;
-  }
+.contact-paragraph {
+  max-width: 800px;
+}
 
-  #email {
-    width: 60%;
-  }
+#contact-name {
+  width: 60%;
+}
 
-  #message {
-    width: 60%;
-  }
+#email {
+  width: 60%;
+}
 
-  .btn-width {
-    margin-right: 0;
-  }
+#message {
+  width: 60%;
+}
 
-  .contact {
-    margin-right: 0;
-  }
+.btn-width {
+  margin-right: 0;
+}
+
+.contact {
+  margin-right: 0;
 }
