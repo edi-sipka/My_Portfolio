@@ -465,6 +465,11 @@ header {
   margin-right: 200px;
 }
 
+.rotate-icons:hover{
+  transform: rotate(100deg);
+ 
+}
+
 @media (min-width: 748px) {
   section {
     background-position: 20px 0;
