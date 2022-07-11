@@ -46,7 +46,7 @@ to use the project My_Portfolio please follow :
 
 ### LIVE DEMO
 
-CHECK THIS LINK [portfolio-website](https://github.com/edi-sipka/My_Portfolio/)
+CHECK THIS LINK [portfolio-website](https://edi-sipka.github.io/)
 
 ## Authors
 
