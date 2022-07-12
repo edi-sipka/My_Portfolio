@@ -134,7 +134,7 @@ header {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7f8cff;
+  color: #7F8CFF;
   text-decoration: none;
   margin-top: 30px;
 }
@@ -511,7 +511,7 @@ header {
     margin-top: -20px;
     background-image: none;
     margin-left: 160px;
-    max-width: 800px;
+    max-width: 55%;
   }
 
   .about-me {
