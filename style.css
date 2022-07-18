@@ -5,7 +5,7 @@
 body {
   background-color: #e5e5e5;
   top: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   border: 0;
   margin: 0;
   padding: 0;
@@ -20,8 +20,8 @@ section {
   top: 48px;
   padding-left: 24px;
   padding-right: 24px;
-  font-family: "Poppins", sans-serif;
-  background-image: url("./Images/desktop-header.png");
+  font-family: 'Poppins', sans-serif;
+  background-image: url('./Images/desktop-header.png');
   background-repeat: no-repeat;
   background-position: 100px right;
   background-size: calc(100%);
@@ -64,7 +64,7 @@ header {
 
 .header-logo {
   text-decoration: none;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 12px;
   text-align: center;
@@ -74,9 +74,11 @@ header {
 .navigation-links {
   display: none;
 }
-
+.navigation-links {
+  display: none;
+}
 .nav-links {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -106,7 +108,7 @@ header {
 
 .welcome-message {
   color: #172b4d;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -121,7 +123,7 @@ header {
 }
 
 .about-me-text {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -130,7 +132,7 @@ header {
 }
 
 .connect {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -175,7 +177,7 @@ header {
 }
 
 .project-name {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -193,7 +195,7 @@ header {
 }
 
 .project-client {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -202,7 +204,7 @@ header {
 }
 
 .programming-language {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -211,7 +213,7 @@ header {
 }
 
 .year {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -220,7 +222,7 @@ header {
 }
 
 .project-details {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -238,7 +240,7 @@ header {
 }
 
 .dev-tool {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -253,7 +255,7 @@ header {
 .btn {
   width: 120px;
   height: 50px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 17px;
   color: #396df2;
@@ -286,7 +288,7 @@ header {
 }
 
 .about-text {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -317,7 +319,7 @@ header {
 
 .caption {
   margin-left: -40px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -343,7 +345,7 @@ header {
 .elements-text {
   margin-top: 22px;
   margin-left: 20px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -377,7 +379,7 @@ header {
 }
 
 .contact {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -388,7 +390,7 @@ header {
 }
 
 .contact-paragraph {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -411,7 +413,7 @@ header {
   padding: 15px;
   margin-bottom: 15px;
   width: 90%;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -427,7 +429,7 @@ header {
   padding: 15px;
   margin-bottom: 15px;
   width: 90%;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -444,7 +446,7 @@ header {
   margin-bottom: 15px;
   min-height: 170px;
   width: 90%;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -489,10 +491,6 @@ header {
     margin-right: 40px;
   }
 
-  .navigation-right {
-    display: none;
-  }
-
   .welcome-message {
     margin-left: 160px;
   }
@@ -502,7 +500,7 @@ header {
     margin-top: -20px;
     background-image: none;
     margin-left: 160px;
-    max-width: 800px;
+    max-width: 55%;
   }
 
   .about-me {
@@ -586,7 +584,7 @@ header {
   }
 
   .contact-form {
-    background-image: url("./Images/contact-form-background-shapes.png");
+    background-image: url('./Images/contact-form-background-shapes.png');
   }
 
   .contact-paragraph {
@@ -612,4 +610,68 @@ header {
   .contact {
     margin-right: 0;
   }
+  #mobile-buttons {
+    display: none;
+  }
+}
+
+/*** Closing javascript button ***/
+.mobile-menu {
+  position: absolute;
+  background: #6070ffee;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(8px);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 100vw;
+  display: none;
+}
+
+.closing-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: 3rem;
+  margin-left: 18rem;
+}
+.mobile-menu a {
+  color: #ffffff;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3.2rem;
+  line-height: 0.4rem;
+}
+
+.mobile-menu.none {
+  display: none;
+}
+.mobile-menu .menu-li {
+  list-style-type: none;
+  margin-right: 20%;
+  margin-bottom: 4rem;
+  margin-top: 30%;
+  display: flex;
+}
+
+.mobile-menu .nav-link {
+  color: rgb(255, 255, 255);
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 0.4rem;
+  margin-right: 20rem;
+  margin-top: -20px;
+}
+
+.mobile-menu .nav-link:hover {
+  color: #6070ff;
+  font-size: 3.4rem;
+}
+
+.mobile-menu.visible {
+  display: block;
 }
