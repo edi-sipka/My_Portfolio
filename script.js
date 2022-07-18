@@ -1,10 +1,10 @@
-const menuShow = document.querySelector('.nav-right');
-const xButton = document.querySelector('.closing-icon');
+const menuNavigation = document.querySelector('.nav-right');
+const closingButton = document.querySelector('.closing-icon');
 
-menuShow.addEventListener('click', () => {
+menuNavigation.addEventListener('click', () => {
   document.querySelector('.mobile-menu').classList.add('visible');
 });
 
-xButton.addEventListener('click', () => {
+closingButton.addEventListener('click', () => {
   document.querySelector('.mobile-menu').classList.remove('visible');
 });
