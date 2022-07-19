@@ -8,7 +8,7 @@ Here is my portfolio website, where you can find everything about me, my project
 
 ## Built With
 
-- html/css.
+- html/css/javascript
 - following linters standards.
 - following github flows standards.
 
