@@ -8,3 +8,9 @@ menuNavigation.addEventListener('click', () => {
 closingButton.addEventListener('click', () => {
   document.querySelector('.mobile-menu').classList.remove('visible');
 });
+
+document.querySelectorAll('.nav-link').forEach((li) => {
+  li.addEventListener('click', () => {
+    document.querySelector('.mobile-menu').classList.remove('visible');
+  });
+});
