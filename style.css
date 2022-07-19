@@ -74,9 +74,7 @@ header {
 .navigation-links {
   display: none;
 }
-.navigation-links {
-  display: none;
-}
+
 .nav-links {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -93,17 +91,6 @@ header {
 
 .hover-menu:hover {
   color: #2230d2;
-}
-
-.mobile-menu {
-  left: 16.67%;
-  right: 16.67%;
-  top: 50%;
-  bottom: 50%;
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 5px;
-  margin-right: 10px;
 }
 
 .welcome-message {
@@ -610,6 +597,7 @@ header {
   .contact {
     margin-right: 0;
   }
+
   #mobile-buttons {
     display: none;
   }
@@ -636,9 +624,10 @@ header {
   margin-top: 3rem;
   margin-left: 18rem;
 }
+
 .mobile-menu a {
-  color: #ffffff;
-  font-family: 'Poppins';
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 3.2rem;
@@ -648,6 +637,7 @@ header {
 .mobile-menu.none {
   display: none;
 }
+
 .mobile-menu .menu-li {
   list-style-type: none;
   margin-right: 20%;
