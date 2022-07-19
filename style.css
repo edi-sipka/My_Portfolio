@@ -616,7 +616,6 @@ header {
 .mobile-menu {
   position: absolute;
   background: #6070ffee;
-  mix-blend-mode: multiply;
   backdrop-filter: blur(8px);
   top: 0;
   left: 0;
