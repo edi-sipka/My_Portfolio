@@ -619,10 +619,11 @@ header {
 }
 
 .closing-icon {
+  position: absolute;
   width: 1.5rem;
   height: 1.5rem;
-  margin-top: 3rem;
-  margin-left: 18rem;
+  top: 1rem;
+  right: 1.6rem;
 }
 
 .mobile-menu a {
