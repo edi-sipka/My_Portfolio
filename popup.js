@@ -1,87 +1,48 @@
-/*window.addEventListener('hashchange', () => {
-  console.log(window.location.hash);
-  projects.forEach((project) => {
-    if (`#${project.id}` === window.location.hash) {
-      console.log(project);
-    }
+const Popup = (project) => {
+  const popup = document.createElement('div');
+  popup.className = 'popup';
+
+  const backdrop = document.createElement('div');
+  backdrop.className = 'backdrop';
+  backdrop.appendChild(popup);
+  document.body.appendChild(backdrop);
+
+  const exit = document.createElement('a');
+  exit.addEventListener('click', () => {
+    backdrop.remove();
   });
-});
-*/
+  popup.appendChild(exit);
+  exit.innerHTML = '<img src="./Images/ClosingIcon.png">';
+  exit.classList.add('closing');
+  const h1 = document.createElement('h1');
+  h1.innerText = project.name;
+  h1.classList.add('project-name');
+  popup.appendChild(h1);
 
-/*
-const projectButton = document.querySelectorAll('.btn');
-const popup = document.querySelector('.background-popup');
-const showPopup = document.querySelector('.popup');
+  const h4 = document.createElement('h4');
+  h4.className = 'project-client';
+  h4.innerText = project.client;
+  popup.appendChild(h4);
 
-projectButton.forEach((n) => {
-  n.addEventListener('click', (e) => {
-    const elements = e.elements.id;
-    const project = projects[elementsId];
+  const img2 = document.createElement('img');
+  img2.className = 'counter';
+  img2.setAttribute('src', './Images/Counter.png');
+  popup.appendChild(img2);
 
-    showPopup.innerHTML = (
-      <div class="card-pop">
-        <div class="flex-popup">
-          <h1 class="section-title">'${project.name}'</h1>
-          <img src="images/canel.png" class="closing-icon" alt="close button" />
-        </div>
-        <div class="project-section">
-          <h4 class="project-client">CANOPY</h4>
-          <img src="images/Counter.png" alt="counter" class="counter" />
-          <span class="programming-language">Back End Dev</span>
-          <img src="images/Counter.png" alt="counter" class="counter" />
-          <span class="year">2015</span>
-        </div>
-        <div class="pic-container">
-          <img
-            src="${project.portfolioPhoto}"
-            alt="card pic"
-            class="cards-pic"
-          />
-        </div>
+  const span = document.createElement('span');
+  span.className = 'programming-language';
+  span.innerText = 'Back End Dev';
+  popup.appendChild(span);
 
-        <div class="flex-desktop">
-          <p>'${project.description}'</p>
-          <div>
-            <ul class="languages">
-              <li class="${project.tools[0]}">html</li>
+  const img3 = document.createElement('img');
+  img3.className = 'counter';
+  img3.setAttribute('src', './Images/Counter.png');
+  popup.appendChild(img3);
 
-              <li class="${project.tools[1]}">css</li>
+  const span2 = document.createElement('span');
+  span2.className = 'year';
+  span2.innerText = project.year;
+  popup.appendChild(span2);
+};
 
-              <li class="${project.tools[2]}">javascript</li>
-            </ul>
-            <div class="btn-flex">
-              <button>
-                <a
-                  href="${project.liveVersion}"
-                  class="btn-flex1"
-                  alt="Broken Link"
-                >
-                  See Live{' '}
-                  <img
-                    src="images/Brokenlink.png"
-                    alt="Broken link"
-                    class="size dot"
-                  />
-                </a>
-              </button>
-              <button>
-                <a href="${project.source}" class="btn-flex1" alt="Broken Link">
-                  See Source{' '}
-                  <img
-                    src="images/github.png"
-                    alt="github logo"
-                    class="size dot"
-                  />
-                </a>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    );
-
-    popup.append(showPopup);
-    popup.classList.add('visible');
-  });
-});
-*/
+export default Popup;

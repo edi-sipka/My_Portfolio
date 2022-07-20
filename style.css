@@ -469,6 +469,29 @@ header {
   transform: rotate(100deg);
 }
 
+.popup {
+  background-color: red;
+  position: absolute;
+  left: 50%;
+  top: 3rem;
+  transform: translate(-50%, 0);
+}
+.closing {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+.backdrop {
+  position: fixed;
+  background: #c1c7d090;
+  backdrop-filter: blur(4px);
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100vw;
+  height: 100vh;
+}
+
 @media (min-width: 748px) {
   section {
     background-position: 20px 0;
