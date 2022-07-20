@@ -28,6 +28,7 @@ section {
   background-size: calc(100%);
   border-radius: 0 0 0 6rem;
   padding-bottom: 50px;
+  z-index: 20;
 }
 
 a {
@@ -101,6 +102,7 @@ header {
   font-size: 40px;
   line-height: 52px;
   margin-top: 70px;
+  z-index: 15;
 }
 
 .about-me {
@@ -223,6 +225,14 @@ header {
   color: #344563;
   margin-left: 20px;
   margin-right: 5px;
+}
+.popup {
+  background-color: rgb(255, 255, 255);
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 80vh;
+  width: 80vw;
 }
 
 .languages {
