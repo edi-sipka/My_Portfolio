@@ -14,6 +14,7 @@ const Popup = (project) => {
   popup.appendChild(exit);
   exit.innerHTML = '<img src="./Images/Cancel.png">';
   exit.classList.add('closing');
+
   const h1 = document.createElement('h1');
   h1.innerText = project.name;
   h1.classList.add('project-name');
@@ -75,7 +76,7 @@ const Popup = (project) => {
   div4.appendChild(ul);
 
   const li = document.createElement('li');
-  li.classList.add('dev-tools');
+  li.classList.add('dev-tool');
   li.innerText = project.technologies;
   ul.appendChild(li);
 
@@ -84,7 +85,7 @@ const Popup = (project) => {
   div3.appendChild(div5);
 
   const button = document.createElement('button');
-  button.classList.add('btns');
+  button.classList.add('btn');
   button.innerText = 'See Live';
   button.addEventListener('click', function () {
     location = project.liveVersion;
@@ -92,7 +93,7 @@ const Popup = (project) => {
   div5.appendChild(button);
 
   const button2 = document.createElement('button');
-  button2.classList.add('btns');
+  button2.classList.add('btn');
   button2.innerText = 'See Source';
   button2.addEventListener('click', function () {
     location = project.source;
@@ -100,5 +101,4 @@ const Popup = (project) => {
 
   div5.appendChild(button2);
 };
-
 export default Popup;

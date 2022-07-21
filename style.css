@@ -477,6 +477,11 @@ header {
   transform: translate(-50%, 0);
   width: 80%;
   height: 90vh;
+  border-radius: 10px;
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+  overflow: scroll;
 }
 .closing {
   position: absolute;
@@ -495,12 +500,8 @@ header {
   height: 100vh;
 }
 .project-image {
-  transform: translate(-50%, 0);
-  position: absolute;
-  left: 50%;
-  top: 7rem;
-  width: 70%;
-  height: 50%;
+  width: 80%;
+  height: auto;
 }
 .popup-data {
   display: flex;
@@ -509,10 +510,7 @@ header {
   margin-left: 1rem;
   margin-top: -2rem;
 }
-.popup-flex {
-  display: flex;
-  gap: 1%;
-}
+
 .dev-tools {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -530,28 +528,13 @@ header {
   margin-left: -36px;
 }
 .popup-paragraph {
-  margin-top: 23rem;
   width: 60%;
   font-size: 1rem;
   margin-left: 1rem;
 }
-.button-flex {
-  margin-top: 25rem;
+
+.popup-flex {
   display: flex;
-  gap: 1rem;
-}
-.btns {
-  height: 50%;
-  color: #6070ff;
-  background-color: white;
-  border-color: #6070ff;
-  border-radius: 10px;
-  border: 0.1rem solid;
-}
-.btns:hover {
-  background-color: rgb(73, 103, 255);
-  color: #fff;
-  cursor: pointer;
 }
 @media (min-width: 748px) {
   section {
