@@ -87,23 +87,23 @@ const Popup = (project) => {
   const button = document.createElement('button');
   button.classList.add('btn');
   button.innerText = 'See Live';
-  button.addEventListener('click', function () {
-    location = project.liveVersion;
+  button.addEventListener('click', () => {
+    window.location = project.liveVersion;
   });
-  const icon = document.createElement('img')
-  icon.setAttribute('src', './Images/Brokenlink.png')
-  button.append(icon)
+  const icon = document.createElement('img');
+  icon.setAttribute('src', './Images/Brokenlink.png');
+  button.append(icon);
   buttonContainer.appendChild(button);
 
   const button2 = document.createElement('button');
   button2.classList.add('btn');
   button2.innerText = 'See Source';
-  button2.addEventListener('click', function () {
-    location = project.source;
+  button2.addEventListener('click', () => {
+    window.location = project.source;
   });
-  const icon2 = document.createElement('img')
-  icon2.setAttribute('src', './Images/github.png')
-  button2.append(icon2)
+  const icon2 = document.createElement('img');
+  icon2.setAttribute('src', './Images/github.png');
+  button2.append(icon2);
   buttonContainer.appendChild(button2);
 };
 

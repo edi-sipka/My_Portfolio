@@ -2,17 +2,14 @@ import projectData from './data.js';
 import Popup from './popup.js';
 
 const Article = (project, index) => {
-
   const article = document.createElement('article');
   article.className = 'portfolio-border';
-
 
   const img = document.createElement('img');
   img.className = 'portfolio-image';
   img.setAttribute('src', project.img);
   article.appendChild(img);
 
-  
   const div = document.createElement('div');
   div.className = 'project-section';
   article.appendChild(div);
