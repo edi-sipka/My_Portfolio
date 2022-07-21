@@ -533,7 +533,6 @@ header {
 .popup-paragraph {
   width: 100%;
   font-size: 1rem;
-
 }
 
 .popup-flex {
@@ -547,19 +546,25 @@ header {
   width: 100%;
 }
 
+.popup .btn {
+  width: auto;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.popup .btn > img {
+  margin-left: 0.5rem;
+}
+
+
 @media (min-width: 748px) {
-
   .button-container {
-
     width: 50%;
   }
 
   .popup-paragraph {
     width: 50%;
-
-
   }
-
 
   section {
     background-position: 20px 0;

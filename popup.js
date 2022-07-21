@@ -1,5 +1,4 @@
 const Popup = (project) => {
- 
   // Backdrop
   const backdrop = document.createElement('div');
   backdrop.className = 'backdrop';
@@ -50,7 +49,6 @@ const Popup = (project) => {
   span2.innerText = project.year;
   div.appendChild(span2);
 
-
   // Project image
   const div2 = document.createElement('div');
   div2.classList.add('popup-image');
@@ -60,35 +58,31 @@ const Popup = (project) => {
   img.setAttribute('src', project.img);
   div2.appendChild(img);
 
-
   // Card body
   const cardBody = document.createElement('div');
   cardBody.classList.add('popup-flex');
   popup.appendChild(cardBody);
 
-  
   // Project description
   const p = document.createElement('p');
   p.classList.add('popup-paragraph');
   p.innerText = project.description;
-  cardBody.appendChild(p);  
-  
-    // Bottons
-    const buttonContainer = document.createElement('div')
-    buttonContainer.className='button-container'
-    cardBody.appendChild(buttonContainer)
-  
+  cardBody.appendChild(p);
+
+  // Bottons
+  const buttonContainer = document.createElement('div');
+  buttonContainer.className = 'button-container';
+  cardBody.appendChild(buttonContainer);
+
   // Project tags
   const ul = document.createElement('ul');
   ul.classList.add('languages');
-  buttonContainer.appendChild(ul);  
-  project.technologies.forEach(technology => {
+  buttonContainer.appendChild(ul);
+  project.technologies.forEach((technology) => {
     const li = document.createElement('li');
     li.innerText = technology;
-    ul.appendChild(li);  
-  })
-
-
+    ul.appendChild(li);
+  });
 
   const button = document.createElement('button');
   button.classList.add('btn');
@@ -96,6 +90,9 @@ const Popup = (project) => {
   button.addEventListener('click', function () {
     location = project.liveVersion;
   });
+  const icon = document.createElement('img')
+  icon.setAttribute('src', './Images/Brokenlink.png')
+  button.append(icon)
   buttonContainer.appendChild(button);
 
   const button2 = document.createElement('button');
@@ -104,6 +101,9 @@ const Popup = (project) => {
   button2.addEventListener('click', function () {
     location = project.source;
   });
+  const icon2 = document.createElement('img')
+  icon2.setAttribute('src', './Images/github.png')
+  button2.append(icon2)
   buttonContainer.appendChild(button2);
 };
 
