@@ -3,12 +3,14 @@
 }
 
 body {
+  box-sizing: border-box;
   background-color: #e5e5e5;
   top: 0;
   font-family: 'Poppins', sans-serif;
   border: 0;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 li {
@@ -23,10 +25,10 @@ section {
   font-family: 'Poppins', sans-serif;
   background-image: url('./Images/desktop-header.png');
   background-repeat: no-repeat;
-  background-position: 100px right;
   background-size: calc(100%);
   border-radius: 0 0 0 6rem;
   padding-bottom: 50px;
+  z-index: 20;
 }
 
 a {
@@ -38,13 +40,12 @@ hr {
   margin-top: -10px;
   margin-left: -50px;
   width: 320px;
-  box-shadow: #dfe1e6;
 }
 
 header {
   background-color: #fff;
   position: fixed;
-  z-index: 99999;
+  z-index: 9;
 }
 
 .main-part {
@@ -100,6 +101,7 @@ header {
   font-size: 40px;
   line-height: 52px;
   margin-top: 70px;
+  z-index: 15;
 }
 
 .about-me {
@@ -231,7 +233,7 @@ header {
   margin-left: -15px;
 }
 
-.dev-tool {
+.languages li {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -458,7 +460,107 @@ header {
   transform: rotate(100deg);
 }
 
+.popup {
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 3rem;
+  transform: translate(-50%, 0);
+  width: 80%;
+  height: 90vh;
+  border-radius: 10px;
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+.closing {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+}
+
+.backdrop {
+  position: fixed;
+  background: #c1c7d090;
+  backdrop-filter: blur(4px);
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100vw;
+  height: 100vh;
+}
+
+.project-image {
+  width: 100%;
+  max-height: 30rem;
+  object-fit: cover;
+}
+
+.popup-data {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: 1rem;
+  margin-top: -2rem;
+}
+
+.dev-tools {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070ff;
+  background: #ebebff;
+  border-radius: 10px;
+  border: 8px solid #ebebff;
+}
+
+.ul-list {
+  display: flex;
+  gap: 5rem;
+  margin-left: -36px;
+}
+
+.popup-paragraph {
+  width: 100%;
+  font-size: 1rem;
+}
+
+.popup-flex {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.popup ul.languages {
+  width: 100%;
+}
+
+.popup .btn {
+  width: auto;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup .btn > img {
+  margin-left: 0.5rem;
+}
+
 @media (min-width: 748px) {
+  .button-container {
+    width: 50%;
+  }
+
+  .popup-paragraph {
+    width: 50%;
+  }
+
   section {
     background-position: 20px 0;
   }
