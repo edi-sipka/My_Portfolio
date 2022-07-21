@@ -258,37 +258,51 @@
         class="contact-box"
         action="https://formspree.io/f/mqknveyk"
         method="POST"
+        id="form-1"
       >
+        <div class="input">
+          <input
+            type="text"
+            name="full-name"
+            placeholder="Your Name"
+            id="contact-name"
+            maxlength="30"
+            required
+          />
+        </div>
+        <div class="input">
+          <input
+            type="email"
+            placeholder="Your Email"
+            name="email"
+            id="email"
+            required
+          />
+        </div>
+        <div class="input">
+          <textarea
+            id="message"
+            name="Message"
+            maxlength="500"
+            placeholder="Write your message here"
+            required
+          ></textarea>
+        </div>
+        
         <input
-          type="text"
-          name="full-name"
-          placeholder="Your Name"
-          id="contact-name"
-          maxlength="30"
-          required
+          type="submit"
+          id="contact-button"
+          value="Get in Touch"
+          class="btn btn-width submit"
         />
-
-        <input
-          type="email"
-          placeholder="Your Email"
-          name="email"
-          id="email"
-          required
-        />
-
-        <textarea
-          id="message"
-          name="Message"
-          maxlength="500"
-          placeholder="Write your message here"
-          required
-        ></textarea>
-        <button type="submit" class="btn btn-width">Get In Touch</button>
+        <div class="error"></div>
+     
       </form>
     </section>
 
     <script src="script.js"></script>
     <script src="projects.js" type="module"></script>
     <script src="popup.js" type="module"></script>
+    <script src="validation.js""></script>
   </body>
 </html>
