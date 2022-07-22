@@ -400,6 +400,19 @@ header {
   align-items: center;
 }
 
+.contact-box div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #contact-name {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
@@ -550,6 +563,11 @@ header {
 
 .popup .btn > img {
   margin-left: 0.5rem;
+}
+
+.error {
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
 }
 
 @media (min-width: 748px) {
