@@ -1,7 +1,6 @@
 const nameUser = document.getElementById('contact-name');
 const email = document.getElementById('email');
 const message = document.getElementById('message');
-const formData = document.querySelector('contact-box');
 
 function store() {
   const storeData = {
