@@ -1,3 +1,4 @@
+/* eslint-disable */
 const Popup = (project) => {
   const popup = document.createElement('div');
   popup.className = 'popup';
@@ -89,7 +90,7 @@ const Popup = (project) => {
   const button = document.createElement('button');
   button.classList.add('btn');
   button.innerText = 'See Live';
-  button.addEventListener('click', function () {
+  button.addEventListener('click', () => {
     location = project.liveVersion;
   });
   div5.appendChild(button);
@@ -98,7 +99,7 @@ const Popup = (project) => {
   const button2 = document.createElement('button');
   button2.classList.add('btn');
   button2.innerText = 'See Source';
-  button2.addEventListener('click', function () {
+  button2.addEventListener('click', () => {
     location = project.source;
   });
 
