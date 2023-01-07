@@ -3,6 +3,7 @@
 }
 
 body {
+  box-sizing: border-box;
   background-color: #e5e5e5;
   top: 0;
   font-family: 'Poppins', sans-serif;
@@ -17,18 +18,15 @@ li {
 }
 
 section {
-  position: relative;
   top: 48px;
   padding-left: 24px;
   padding-right: 24px;
   font-family: 'Poppins', sans-serif;
   background-image: url('./Images/desktop-header.png');
   background-repeat: no-repeat;
-  background-position: 100px right;
   background-size: calc(100%);
   border-radius: 0 0 0 6rem;
   padding-bottom: 50px;
-  z-index: 20;
 }
 
 a {
@@ -40,7 +38,6 @@ hr {
   margin-top: -10px;
   margin-left: -50px;
   width: 320px;
-  box-shadow: #dfe1e6;
 }
 
 header {
@@ -157,12 +154,15 @@ header {
   background-color: #fff;
   margin-left: -10px;
   margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .portfolio-image {
   margin-top: 16px;
-  width: 295px;
-  height: 220px;
+  width: 70%;
   margin-left: 15px;
 }
 
@@ -226,14 +226,6 @@ header {
   margin-left: 20px;
   margin-right: 5px;
 }
-.popup {
-  background-color: rgb(255, 255, 255);
-  top: 0;
-  left: 0;
-  position: absolute;
-  height: 80vh;
-  width: 80vw;
-}
 
 .languages {
   display: flex;
@@ -242,7 +234,7 @@ header {
   margin-left: -15px;
 }
 
-.dev-tool {
+.languages li {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -409,6 +401,19 @@ header {
   align-items: center;
 }
 
+.contact-box div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #contact-name {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
@@ -462,7 +467,6 @@ header {
   width: 140px;
   float: left;
   margin-top: 1px;
-  margin-right: 200px;
 }
 
 .rotate-icons:hover {
@@ -483,12 +487,14 @@ header {
   flex-direction: column;
   overflow: scroll;
 }
+
 .closing {
   position: absolute;
   top: 1rem;
   right: 1rem;
   cursor: pointer;
 }
+
 .backdrop {
   position: fixed;
   background: #c1c7d090;
@@ -499,10 +505,13 @@ header {
   width: 100vw;
   height: 100vh;
 }
+
 .project-image {
-  width: 80%;
-  height: auto;
+  width: 100%;
+  max-height: 30rem;
+  object-fit: cover;
 }
+
 .popup-data {
   display: flex;
   align-items: center;
@@ -522,21 +531,54 @@ header {
   border-radius: 10px;
   border: 8px solid #ebebff;
 }
+
 .ul-list {
   display: flex;
   gap: 5rem;
   margin-left: -36px;
 }
+
 .popup-paragraph {
-  width: 60%;
+  width: 100%;
   font-size: 1rem;
-  margin-left: 1rem;
 }
 
 .popup-flex {
+  width: 100%;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
+
+.popup ul.languages {
+  width: 100%;
+}
+
+.popup .btn {
+  width: auto;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup .btn > img {
+  margin-left: 0.5rem;
+}
+
+.error {
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+}
+
 @media (min-width: 748px) {
+  .button-container {
+    width: 50%;
+  }
+
+  .popup-paragraph {
+    width: 50%;
+  }
+
   section {
     background-position: 20px 0;
   }
