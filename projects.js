@@ -1,3 +1,4 @@
+/* eslint-disable */
 import projectData from './data.js';
 import Popup from './popup.js';
 

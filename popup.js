@@ -3,17 +3,11 @@ const Popup = (project) => {
 
   const popup = document.createElement('div');
   popup.className = 'popup';
-
+  backdrop.appendChild(popup);
 
   const backdrop = document.createElement('div');
   backdrop.className = 'backdrop';
   document.body.appendChild(backdrop);
-
-
-
-  const popup = document.createElement('div');
-  popup.className = 'popup';
-  backdrop.appendChild(popup);
 
 
   const exit = document.createElement('a');
@@ -95,11 +89,8 @@ const Popup = (project) => {
   button.classList.add('btn');
   button.innerText = 'See Live';
   button.addEventListener('click', () => {
-<<<<<<< HEAD
-    location = project.liveVersion;
-=======
+
     window.location = project.liveVersion;
->>>>>>> dd4b7b345a42fc7a0b0048380965aa6ad73ab6e2
   });
   const icon = document.createElement('img');
   icon.setAttribute('src', './Images/Brokenlink.png');
@@ -111,16 +102,11 @@ const Popup = (project) => {
   button2.classList.add('btn');
   button2.innerText = 'See Source';
   button2.addEventListener('click', () => {
-<<<<<<< HEAD
-    location = project.source;
-=======
-    window.location = project.source;
->>>>>>> dd4b7b345a42fc7a0b0048380965aa6ad73ab6e2
-  });
+
   const icon2 = document.createElement('img');
   icon2.setAttribute('src', './Images/github.png');
   button2.append(icon2);
   buttonContainer.appendChild(button2);
-};
-
+});
+}
 export default Popup;
