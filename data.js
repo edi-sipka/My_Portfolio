@@ -1,3 +1,4 @@
+
 // Made variable projects in which is stored all about the projecs/works cards.
 const projects = [
   {
@@ -21,7 +22,7 @@ const projects = [
     paragraph:
       'Recipe app keeps track of all your recipes, ingredients, and inventory.',
     year: 2022,
-    img: './Images/Portfolio2.png',
+    img: './Images/rails2.png',
     technologies: ['Rails', 'Postgres', 'Javascript'],
     description:
       "It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe.",
@@ -51,7 +52,7 @@ const projects = [
     paragraph:
       'Blog website that allows users to create, edit, comment and delete posts, keeping data in a database. ',
     id: 4,
-    img: './Images/Portfolio4.png',
+    img: './Images/rails3.png',
     technologies: ['Rails', 'Postgres', 'Javascript'],
     description:
       "This project implements both authorization and authentication in order to provide extended functionality to logged in and authorized users.",
