@@ -1,62 +1,64 @@
+// Made variable projects in which is stored all about the projecs/works cards.
 const projects = [
   {
-    name: 'Tonic',
-    client: 'CANOPY',
+    name: 'Budget Rails App',
+    client: 'Microverse',
     id: 1,
-    year: 2015,
-    img: './Images/Portfolio1.png',
-    technologies: ['html', 'css', 'javascript'],
+    year: 2022,
+    img: './Images/rails1.png',
+    technologies: ['Rails', 'Postgre'],
     paragraph:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      'Budget Rails is a mobile web application where user can manage their budget with transactions. ',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    liveVersion: 'https://edi-sipka.github.io/My_Portfolio/',
-    source: 'https://github.com/edi-sipka/My_Portfolio',
+      'You can check how much your are spending monthly.',
+    liveVersion: 'https://rails-bbb8.onrender.com/',
+    source: 'https://github.com/edi-sipka/Budget_Rails',
   },
   {
-    name: 'Tonic',
-    client: 'CANOPY',
+    name: 'Recipe App',
+    client: 'Microverse',
     id: 2,
     paragraph:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    year: 2020,
-    img: './Images/Portfolio2.png',
-    technologies: ['html', 'css', 'javascript'],
+      'Recipe app keeps track of all your recipes, ingredients, and inventory.',
+    year: 2022,
+    img: './Images/rails2.png',
+    technologies: ['Rails', 'Postgres', 'Javascript'],
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    liveVersion: 'https://edi-sipka.github.io/My_Portfolio/',
-    source: 'https://github.com/edi-sipka/My_Portfolio',
+      'It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe.',
+    liveVersion: 'https://github.com/edi-sipka/Recipe_app',
+    source: 'https://github.com/edi-sipka/Recipe_app',
   },
 
   {
-    name: 'Multi post Stories',
-    client: 'CANOPY',
+    name: 'Movie Imdb React',
+    client: 'Microverse',
     paragraph:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    year: 2019,
+      'Movies_App is React built app that is displaying movies and tv shows.',
+    year: 2022,
     id: 3,
-    img: './Images/Portfolio3.png',
-    technologies: ['html', 'css', 'javascript'],
+    img: './Images/react1.png',
+    technologies: ['Redux', 'React'],
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    liveVersion: 'https://edi-sipka.github.io/My_Portfolio/',
-    source: 'https://github.com/edi-sipka/My_Portfolio',
+      'You can find more about their ratings, actors and year release..',
+    liveVersion: 'https://github.com/edi-sipka/Movies_App',
+    source: 'https://github.com/edi-sipka/Movies_App',
   },
 
   {
-    name: 'Multi post Stories',
-    client: 'CANOPY',
-    year: 2020,
+    name: 'Blog Rails App',
+    client: 'Microverse',
+    year: 2022,
     paragraph:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      'Blog website that allows users to create, edit, comment and delete posts, keeping data in a database. ',
     id: 4,
-    img: './Images/Portfolio4.png',
-    technologies: ['html', 'css', 'javascript'],
+    img: './Images/rails3.png',
+    technologies: ['Rails', 'Postgres', 'Javascript'],
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    liveVersion: 'https://edi-sipka.github.io/My_Portfolio/',
-    source: 'https://github.com/edi-sipka/My_Portfolio',
+      'This project implements both authorization and authentication in order to provide extended functionality to logged in and authorized users.',
+    liveVersion: 'https://github.com/edi-sipka/Blog_App',
+    source: 'https://github.com/edi-sipka/Blog_App',
   },
 ];
 
+// export projects data to different js files
 export default projects;
