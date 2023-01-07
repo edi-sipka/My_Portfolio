@@ -2,11 +2,12 @@ const Popup = (project) => {
   const popup = document.createElement('div');
   popup.className = 'popup';
 
+  // Backdrop is background outside of popup
   const backdrop = document.createElement('div');
   backdrop.className = 'backdrop';
   backdrop.appendChild(popup);
   document.body.appendChild(backdrop);
-
+  // Close the popup on click
   const exit = document.createElement('a');
   exit.addEventListener('click', () => {
     backdrop.remove();
@@ -84,6 +85,7 @@ const Popup = (project) => {
   div5.classList.add('button-flex');
   div3.appendChild(div5);
 
+  // location is url navigation
   const button = document.createElement('button');
   button.classList.add('btn');
   button.innerText = 'See Live';
@@ -92,6 +94,7 @@ const Popup = (project) => {
   });
   div5.appendChild(button);
 
+  // location is url navigation
   const button2 = document.createElement('button');
   button2.classList.add('btn');
   button2.innerText = 'See Source';

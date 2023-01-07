@@ -1,6 +1,7 @@
 import projectData from './data.js';
 import popup from './popup.js';
 
+// Variable Article with arguments project and index
 const Article = (project, index) => {
   const article = document.createElement('article');
   article.className = 'portfolio-border';
@@ -12,6 +13,7 @@ const Article = (project, index) => {
   const div = document.createElement('div');
   div.className = 'project-section';
   article.appendChild(div);
+  // Made reverse cards on portfolio section
   if (index % 2 === 1) {
     div.classList.add('project-section-reverse');
   }
@@ -65,6 +67,7 @@ const Article = (project, index) => {
     li.innerText = technology;
     ul.appendChild(li);
   });
+
   const button = document.createElement('button');
   button.className = 'btn';
   button.innerText = 'See Project';
@@ -79,6 +82,7 @@ const Article = (project, index) => {
 const projects = document.createElement('div');
 projects.className = 'portfolio';
 
+// Imported projects data
 projectData.forEach((project, index) => {
   projects.appendChild(Article(project, index));
 });
