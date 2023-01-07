@@ -1,10 +1,11 @@
 import projectData from './data.js';
-import popup from './popup.js';
+import Popup from './popup.js';
 
 // Variable Article with arguments project and index
 const Article = (project, index) => {
   const article = document.createElement('article');
   article.className = 'portfolio-border';
+
   const img = document.createElement('img');
   img.className = 'portfolio-image';
   img.setAttribute('src', project.img);
@@ -72,7 +73,7 @@ const Article = (project, index) => {
   button.className = 'btn';
   button.innerText = 'See Project';
   button.addEventListener('click', () => {
-    popup(project);
+    Popup(project);
   });
   div.appendChild(button);
 

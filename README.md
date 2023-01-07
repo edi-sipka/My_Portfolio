@@ -44,6 +44,10 @@ to use the project My_Portfolio please follow :
 
 \_use you preferd browser to run the file .html to get project website.
 
+### Preview
+
+![Website preview](Images/mockup.png)
+
 ### LIVE DEMO
 
 CHECK THIS LINK [portfolio-website](https://edi-sipka.github.io/)
