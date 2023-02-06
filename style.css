@@ -24,7 +24,7 @@ section {
   font-family: 'Poppins', sans-serif;
   background-image: url('./Images/desktop-header.png');
   background-repeat: no-repeat;
-  background-size: calc(110%);
+  background-size: calc(100%);
   border-radius: 0 0 0 6rem;
   padding-bottom: 50px;
 }
@@ -58,7 +58,7 @@ header {
   width: 100%;
   padding: 14px 20px;
   align-items: center;
-  height: 46px;
+  height: 66px;
 }
 
 .header-logo {
@@ -206,6 +206,7 @@ header {
   margin-top: 3rem;
   margin-bottom: 3rem;
   background-color: white;
+   border-radius: 0 6rem 0 0;
 }
 
 .skills {
@@ -216,7 +217,7 @@ header {
 
 .skills .box-header {
   align-self: center;
-  padding: 1rem;
+  padding: 3rem;
 }
 
 .skills .box-header .head-text {
@@ -286,7 +287,7 @@ header {
   gap:3rem;
 }
 .icons {
-  font-size: 1.7rem;
+  font-size: 1.9rem;
   padding: 12px 10px;
   height: 50px;
   gap:3rem;
@@ -442,7 +443,7 @@ header {
 }
 
 .btn:visited {
-  color: #5e6c84;
+  color: #ffffff;
 }
 
 .about-text {
@@ -768,7 +769,10 @@ header {
 .btn-2{
   background-color: #6070ff;
   color:white;
-  width:12%;
+  width:11%;
+  display:flex;
+  align-items:center;
+  justify-content: center;
 }
 
 .cards-blog {
@@ -882,7 +886,9 @@ color: #868686;
   margin-top: 5px;
   margin-bottom: 10px;
 }
-
+.btn-link{
+  text-align: center;
+}
 .card__by {
   font-size: 12px;
   font-weight: 500;
@@ -907,7 +913,41 @@ color: #868686;
 .card-blog:hover .card__info-hover {
   opacity: 1;
 }
+.resume-btn {
+  width: 150px;
+  height: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  color: #396df2;
+  background-color: #6070ff;
+  border-radius: 5px;
+  border: 1px solid #396df2;
+  margin-top: 3rem;
+  cursor: pointer;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
 
+.resume-btn:hover {
+  background: #0e0e0e;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+  color: rgb(7, 0, 0);
+  transform: translate(5px, 0);
+  transition: 0.5s all;
+}
+
+.resume-btn:active {
+  background: #020202;
+  border-radius: 8px;
+  color: rgb(11, 0, 0);
+}
+
+.resume-btn:visited {
+  color: #ffffff;
+}
 
 @media (min-width: 748px) {
   .button-container {
@@ -928,7 +968,7 @@ color: #868686;
 
   .main-part {
     min-width: 1100px;
-    padding-top: 160px;
+    padding-top: 120px;
     padding-bottom: 260px;
   }
 
