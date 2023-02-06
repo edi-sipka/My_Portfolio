@@ -27,6 +27,7 @@ section {
   background-size: calc(100%);
   border-radius: 0 0 0 6rem;
   padding-bottom: 50px;
+  
 }
 
 a {
@@ -37,7 +38,7 @@ a {
 hr {
   margin-top: -10px;
   margin-left: -50px;
-  width: 320px;
+ 
 }
 
 header {
@@ -55,7 +56,7 @@ header {
 .header-section {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 38%;
   padding: 14px 20px;
   align-items: center;
   height: 66px;
@@ -87,7 +88,9 @@ header {
   gap: 40px;
   text-decoration: none;
 }
-
+.about-me-main {
+  max-width: 15rem;
+}
 .hover-menu:hover {
   color: #2230d2;
 }
@@ -101,8 +104,8 @@ header {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  margin-top: 70px;
   z-index: 15;
+  width:14rem;
 }
 
 .about-me {
@@ -143,7 +146,7 @@ header {
   margin-bottom:-15rem;
 }
 .content-image img {
-  width: 300px;
+  width: 20rem;
   border: 1px solid grey;
   border-radius: 50%;
   padding: 30px;
@@ -194,7 +197,7 @@ header {
 .social-media-icons {
   display: flex;
   margin-top: 10px;
-  margin-left: -40px;
+  margin-left: -50px;
 }
 
 .icons {
@@ -203,7 +206,6 @@ header {
 }
 
 #skills {
-  margin-top: 3rem;
   margin-bottom: 3rem;
   background-color: white;
    border-radius: 0 6rem 0 0;
@@ -314,8 +316,9 @@ header {
   border-radius: 20px;
   border: 0.2rem solid #e5e5e5;
   background-color: #fff;
-  margin-left: -10px;
+  margin-left: -9px;
   margin-top: 80px;
+  width: 15rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -325,7 +328,6 @@ header {
 .portfolio-image {
   margin-top: 16px;
   width: 70%;
-  margin-left: 15px;
   border: 1px solid #6070ff;
     border-radius: 20px;
 }
@@ -339,7 +341,7 @@ header {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 22px;
   line-height: 44px;
   color: #172b4d;
   margin-left: 15px;
@@ -348,8 +350,8 @@ header {
 .project-info {
   display: flex;
   align-items: center;
-  margin-top: -30px;
-  margin-left: 20px;
+  margin-top: -20px;
+  margin-left: 17px;
   gap: 10px;
 }
 
@@ -750,6 +752,7 @@ header {
   font-size:1.2rem;
   margin-top:-3rem;
   margin-left:2rem;
+  width: 15rem;
 }
 .blog-heading>p{
   font-size:1.2rem;
@@ -788,6 +791,7 @@ header {
   justify-content: center;
   -webkit-justify-content: center;
   max-width: 1420px;
+  display: grid;
 }
 
 .card--1 .card__img, .card--1 .card__img--hover {
@@ -966,6 +970,7 @@ color: #868686;
 
   section {
     background-position: 20px 0;
+    width: 95rem;
   }
 
   .header-section {
@@ -994,6 +999,7 @@ color: #868686;
 
   .welcome-message {
     margin-left: 160px;
+    width:50rem;
   }
 
   .about-me-main {
@@ -1181,6 +1187,16 @@ color: #868686;
 .mobile-menu.visible {
   display: block;
 }
+.cards-blog {
+  display: flex;
+}
+.blog-heading{
+  font-size:1.2rem;
+  margin-top:-3rem;
+  margin-left:2rem;
+  width: 45rem;
+}
+
 
 @keyframes animate {
   10% {
