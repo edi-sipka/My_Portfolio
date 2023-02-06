@@ -761,6 +761,9 @@ header {
 }
 .btn-blog{
   margin-top:2rem;
+  display:flex;
+  justify-content:flex-end;
+  margin-right:2rem;
 }
 .btn-2{
   background-color: #6070ff;
@@ -780,14 +783,20 @@ header {
 .card--1 .card__img, .card--1 .card__img--hover {
   background-image: url('https://avatars.githubusercontent.com/u/4223');
 }
-
 .card--2 .card__img, .card--2 .card__img--hover {
-  background-image: url('https://images.pexels.com/photos/307008/pexels-photo-307008.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+  background-image: url('https://miro.medium.com/max/1400/1*mnKlH4943o0g_oOr6J1ATg.jpeg');
 }
 
-.card__like {
-  width: 18px;
+.card--3 .card__img, .card--3 .card__img--hover {
+  background-image: url('https://assets.entrepreneur.com/content/3x2/2000/1593079102-work-731198.jpg');
 }
+
+.card--4 .card__img, .card--4 .card__img--hover {
+  background-image: url('https://images.ctfassets.net/yr4qj72ki4ky/legacyBlogPost77Thumbnail/cd4783ad7b35efc4367166a570a9952e/bigstock-Real-Java-Script-Code-Developi-217215433.jpg');
+}
+
+
+
 
 .card__clock {
   width: 15px;
@@ -862,7 +871,6 @@ border-bottom-right-radius: 12px;
 }
 
 .card__category {
-  font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   font-size: 13px;
   letter-spacing: 2px;
@@ -873,12 +881,10 @@ color: #868686;
 .card__title {
   margin-top: 5px;
   margin-bottom: 10px;
-  font-family: 'Roboto Slab', serif;
 }
 
 .card__by {
   font-size: 12px;
-  font-family: 'Raleway', sans-serif;
   font-weight: 500;
 }
 
