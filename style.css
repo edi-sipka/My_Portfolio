@@ -311,7 +311,6 @@ header {
 }
 
 .portfolio-border {
-  margin-bottom: 70px;
   border-radius: 20px;
   border: 0.2rem solid #e5e5e5;
   background-color: #fff;
@@ -327,6 +326,8 @@ header {
   margin-top: 16px;
   width: 70%;
   margin-left: 15px;
+  border: 1px solid #6070ff;
+    border-radius: 20px;
 }
 
 .portfolio-image:hover {
@@ -637,7 +638,12 @@ header {
   transform: scale(1.5);
   transition: all 0.5s;
 }
-
+.social-media-contact{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-right:7rem;
+}
 .popup {
   background-color: #fff;
   position: absolute;
@@ -747,7 +753,7 @@ header {
 }
 .blog-heading>p{
   font-size:1.2rem;
-  margin-top:1rem;
+  margin-top:-1rem;
 }
 .blog-img{
   display:flex;
@@ -1080,6 +1086,10 @@ color: #868686;
 
   .contact-form {
     background-image: url('./Images/contact-form-background-shapes.png');
+    margin-top:4rem;
+    margin-bottom: -6rem;
+    width:110%;
+    margin-left: -1.5rem;
   }
 
   .contact-paragraph {
