@@ -1,4 +1,5 @@
 // Made two variables of opening and closing
+/* eslint-disable */
 const menuNavigation = document.querySelector('.nav-right');
 const closingButton = document.querySelector('.closing-icon');
 

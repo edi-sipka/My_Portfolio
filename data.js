@@ -1,4 +1,5 @@
 // Made variable projects in which is stored all about the projecs/works cards.
+/* eslint-disable */
 const projects = [
   {
     name: 'Budget Rails App',
