@@ -12,6 +12,8 @@ body {
   margin: 0;
   padding: 0;
   position: relative;
+  overflow-x: hidden;
+overflow-y: scroll;
 }
 
 li {
@@ -55,7 +57,7 @@ header {
 .header-section {
   display: flex;
   justify-content: space-between;
-  width: 110%;
+  width: 90%;
   padding: 14px 20px;
   align-items: center;
   height: 66px;
@@ -88,9 +90,7 @@ header {
   text-decoration: none;
 }
 
-.about-me-main {
-  max-width: 15rem;
-}
+
 
 .hover-menu:hover {
   color: #2230d2;
@@ -651,6 +651,7 @@ header {
   background-color: white;
   margin-top: -3rem;
   margin-bottom: 3rem;
+  width: 100%;
 }
 
 .blog-heading {
@@ -872,7 +873,7 @@ header {
 
   section {
     background-position: 20px 0;
-    width: 95rem;
+    width: 100%;
   }
 
   .header-section {
@@ -880,7 +881,7 @@ header {
   }
 
   .main-part {
-    min-width: 1100px;
+    width:100%;
     padding-top: 120px;
     padding-bottom: 260px;
   }
@@ -1105,6 +1106,7 @@ header {
   margin-bottom: 3rem;
   background-color: white;
   border-radius: 0 6rem 0 0;
+      width: 100%;
 }
 
 .skills {
