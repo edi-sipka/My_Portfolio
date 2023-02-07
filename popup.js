@@ -1,13 +1,14 @@
 /* eslint-disable */
 const Popup = (project) => {
-
+console.log("Test")
+const backdrop = document.createElement('div');
+backdrop.className = 'backdrop';
+document.body.appendChild(backdrop);
   const popup = document.createElement('div');
   popup.className = 'popup';
   backdrop.appendChild(popup);
 
-  const backdrop = document.createElement('div');
-  backdrop.className = 'backdrop';
-  document.body.appendChild(backdrop);
+
 
 
   const exit = document.createElement('a');
@@ -97,16 +98,18 @@ const Popup = (project) => {
   button.append(icon);
   buttonContainer.appendChild(button);
 
+
   // location is url navigation
   const button2 = document.createElement('button');
   button2.classList.add('btn');
   button2.innerText = 'See Source';
   button2.addEventListener('click', () => {
-
+    window.location = project.source;
+  })
   const icon2 = document.createElement('img');
   icon2.setAttribute('src', './Images/github.png');
   button2.append(icon2);
   buttonContainer.appendChild(button2);
-});
+
 }
 export default Popup;

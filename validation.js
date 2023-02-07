@@ -1,3 +1,4 @@
+/* eslint-disable */
 document.querySelector('.submit').addEventListener('click', (event) => {
   const mail = document.getElementById('email').value;
   const errorMail = document.querySelector('.error');
