@@ -995,7 +995,7 @@ header {
 
   .contact-form {
     background-image: url('./Images/contact-form-background-shapes.png');
-    margin-top: 4rem;
+    margin-top: -2.8rem;
     margin-bottom: -6rem;
     width: 110%;
     margin-left: -1.5rem;
@@ -1419,7 +1419,29 @@ header {
   }
 }
 
-@media (max-width: 748px) {
+@media (max-width: 480px) {
+  body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  .main-part{
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+.header-section{
+  width:75%;
+}
+.about-me-main{
+  width: 70%;
+}
+.portfolio{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.skills{
+  display:none;
+}
   .skills-paragraph {
     margin-left: -2rem;
     width: 140%;
@@ -1443,7 +1465,7 @@ header {
   }
 
   #skills {
-    margin-bottom: -18rem;
+    display:none;
   }
 
   .box-header {
@@ -1482,8 +1504,13 @@ header {
   .btn-2 {
     width: 100%;
   }
+.contact-form{
+  width: 80%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
 
-  .contact-me {
-    max-width: 120%;
-  }
+}
+.blog{
+  margin-top:2rem;
 }
