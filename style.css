@@ -56,7 +56,7 @@ header {
 .header-section {
   display: flex;
   justify-content: space-between;
-  width: 38%;
+  width:110%;
   padding: 14px 20px;
   align-items: center;
   height: 66px;
@@ -155,7 +155,7 @@ header {
 }
 
 .box-header{
-  margin-bottom: 16rem;;
+  margin-top: -8rem;
 }
 .skills-paragraph{
 text-align: center;
@@ -1342,5 +1342,35 @@ color: #868686;
 
   100% {
     transform: rotate(0);
+  }
+}
+
+@media (max-width: 748px) {
+  .skills-paragraph{
+    margin-left:-2rem;
+    width:140%;
+  }
+  .resume-btn{
+    margin-top:5rem;
+  }
+  .content-image{
+    display:none;
+  }
+  .social-media-icons{
+    margin-left:-1.4rem;
+  }
+  .icons{
+    width:130%;
+    margin-left:-1.5rem;
+  }
+  #skills{
+    margin-bottom: -18rem;
+  }
+  .box-header{
+    margin-top:-30rem;
+  }
+  .box-header > h3{
+    width:200%;
+    margin-left:-2rem;
   }
 }
