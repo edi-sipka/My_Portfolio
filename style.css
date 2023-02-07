@@ -55,7 +55,7 @@ header {
 .header-section {
   display: flex;
   justify-content: space-between;
-  width: 110%;
+  width: 90%;
   padding: 14px 20px;
   align-items: center;
   height: 66px;
@@ -880,7 +880,7 @@ header {
   }
 
   .main-part {
-    min-width: 1100px;
+    min-width: 100%;
     padding-top: 120px;
     padding-bottom: 260px;
   }
