@@ -50,8 +50,8 @@ header {
 
 .main-part {
   background-color: #fff;
-  min-width: 375px;
-  padding-top: 80px;
+  
+  padding-top: 8rem;
 }
 
 .header-section {
@@ -107,8 +107,10 @@ header {
   font-size: 40px;
   line-height: 52px;
   z-index: 15;
-  width: 80%;
+  width: 50%;
+  margin-top: 5rem;
 }
+
 
 .about-me {
   background-color: #fff;
@@ -883,7 +885,7 @@ header {
   .main-part {
     width:100%;
     padding-top: 120px;
-    padding-bottom: 260px;
+    padding-bottom: 12rem;
   }
 
   .my-logo {
@@ -1193,8 +1195,8 @@ header {
 }
 
 .content-image img {
-  width: 20rem;
-  border: 1px solid grey;
+  width: 22rem;
+  border: 1px solid #6070ff;
   border-radius: 50%;
   padding: 30px;
   transform: translateY(-120px);
@@ -1203,7 +1205,7 @@ header {
 .content-image::before {
   content: "";
   position: absolute;
-  background-image: url(/Images/react-js-icon.svg);
+
   background-repeat: no-repeat;
   width: 60px;
   bottom: 80%;
@@ -1217,7 +1219,7 @@ header {
   position: absolute;
   bottom: 50px;
   right: 27%;
-  background-image: url(/Images/ruby-on-rails-icon.svg);
+
   background-size: 60px;
   background-repeat: no-repeat;
   width: 90px;
@@ -1231,7 +1233,7 @@ header {
   height: 60px;
   left: 34rem;
   bottom: 5rem;
-  background-image: url(/Images/redux-icon.svg);
+
   background-repeat: no-repeat;
   animation: anime-2 1.5s infinite alternate-reverse forwards ease-in-out;
 }
