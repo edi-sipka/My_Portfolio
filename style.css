@@ -150,7 +150,6 @@ header {
 .social-media-icons {
   display: flex;
   margin-top: 10px;
-  margin-left: -50px;
 }
 
 .icons {
@@ -535,7 +534,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 7rem;
+  gap:2rem;
 }
 
 .popup {
@@ -650,7 +649,6 @@ header {
 .blog {
   background-color: white;
   margin-top: -3rem;
-  margin-bottom: 3rem;
   width: 100%;
   padding-top: 2rem;
 }
@@ -937,7 +935,6 @@ header {
   }
 
   .social-media-icons {
-    margin-left: 120px;
     margin-top: 10px;
   }
 
@@ -1438,9 +1435,6 @@ header {
     display: none;
   }
 
-  .social-media-icons {
-    margin-left: -1.4rem;
-  }
 
   .icons {
     width: 130%;
@@ -1479,7 +1473,7 @@ header {
     flex-direction: column;
     width: 200%;
     justify-content: center;
-    margin-left: 4rem;
+    margin-left: 3.8rem;
   }
 
   .btn-2 {
