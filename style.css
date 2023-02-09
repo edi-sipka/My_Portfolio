@@ -150,6 +150,7 @@ header {
 .social-media-icons {
   display: flex;
   margin-top: 10px;
+  margin-left: -1.6rem;
 }
 
 .icons {
@@ -448,7 +449,7 @@ header {
   line-height: 28px;
   color: #ebebff;
   text-align: center;
-  margin-top: -10px;
+  margin-top: -20px;
 }
 
 .contact-box {
@@ -936,6 +937,7 @@ header {
 
   .social-media-icons {
     margin-top: 10px;
+    margin-left: 110px;
   }
 
   .social-media-button {
@@ -1473,7 +1475,7 @@ header {
     flex-direction: column;
     width: 200%;
     justify-content: center;
-    margin-left: 4.2rem;
+    margin-left: 3.6rem;
   }
 
   .btn-2 {
