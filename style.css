@@ -150,7 +150,8 @@ header {
 .social-media-icons {
   display: flex;
   margin-top: 10px;
-  margin-left: -1.6rem;
+  margin-left: -1rem;
+  gap:1rem;
 }
 
 .icons {
