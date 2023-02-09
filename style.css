@@ -535,6 +535,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 8rem;
   gap:2rem;
 }
 
@@ -837,7 +838,7 @@ header {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 17px;
-  color: #396df2;
+  color: #ffffff;
   background-color: #6070ff;
   border-radius: 5px;
   border: 1px solid #396df2;
@@ -852,7 +853,7 @@ header {
   background: #0e0e0e;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 8px;
-  color: rgb(7, 0, 0);
+  color: rgb(255, 255, 255);
   transform: translate(5px, 0);
   transition: 0.5s all;
 }
@@ -1481,5 +1482,7 @@ header {
   .btn-2 {
     width: 50%;
   }
-
+  .social-media-contact{
+    margin-left:8rem;
+  }
 }
