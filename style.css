@@ -157,7 +157,6 @@ header {
   margin-right: 20px;
   margin-top: 10px;
   font-size: 1.9rem;
-  padding: 12px 10px;
   height: 50px;
   gap: 3rem;
   color: blue;
@@ -168,9 +167,6 @@ header {
   margin-top: -8rem;
 }
 
-.skills-paragraph {
-  text-align: center;
-}
 
 .icons-container {
   display: flex;
@@ -241,7 +237,7 @@ header {
   display: flex;
   align-items: center;
   margin-top: -20px;
-  margin-left: 12px;
+  margin-left: 16px;
   gap: 10px;
 }
 
@@ -810,7 +806,7 @@ header {
 .card__by {
   font-size: 12px;
   font-weight: 500;
-  gap:1rem;
+  gap: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -851,6 +847,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: -0.5rem;
 }
 
 .resume-btn:hover {
@@ -942,7 +939,7 @@ header {
 
   .social-media-icons {
     margin-top: 10px;
-    margin-left: 110px;
+    margin-left: 120px;
   }
 
   .social-media-button {
