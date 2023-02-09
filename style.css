@@ -105,6 +105,7 @@ header {
   color: #172b4d;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
+  margin-top:-1rem;
   font-size: 40px;
   line-height: 52px;
   z-index: 15;
@@ -1457,9 +1458,6 @@ header {
 
   .blog-heading > h2 {
     margin-top: 4rem;
-    max-width: 14rem;
-    text-align: center;
-    margin-left: -2rem;
     font-size: 1.6rem;
   }
 
