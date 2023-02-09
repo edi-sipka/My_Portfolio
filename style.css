@@ -32,6 +32,7 @@ section {
   padding-bottom: 50px;
   width: 100vw;
   overflow-x: hidden;
+  overflow-y:hidden;
 
 }
 
@@ -107,8 +108,6 @@ header {
   font-size: 40px;
   line-height: 52px;
   z-index: 15;
-  width: 50%;
-  margin-top: 5rem;
 }
 
 .about-me {
@@ -417,7 +416,7 @@ header {
 
 .contact-form {
   margin-top: 0;
-  min-width: 20rem;
+  min-width: 18rem;
   padding-left: 24px;
   padding-right: 24px;
   border-radius: 80px 0 0 0;
@@ -653,6 +652,7 @@ header {
   margin-top: -3rem;
   margin-bottom: 3rem;
   width: 100%;
+  padding-top: 2rem;
 }
 
 .blog-heading {
@@ -695,7 +695,10 @@ header {
 .card--1 .card__img--hover {
   background-image: url('https://avatars.githubusercontent.com/u/4223');
 }
-
+.card__title{
+  text-align: center;
+  font-size: 1rem;
+}
 .card--2 .card__img,
 .card--2 .card__img--hover {
   background-image: url('https://miro.medium.com/max/1400/1*mnKlH4943o0g_oOr6J1ATg.jpeg');
